@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+@import "./reset";
+@import "./variables/colors";
+@import "./variables/global";
+@import "./themes/light";
+@import "./themes/dark";
+
+* {
+  transition: all 0.3s;
+}
+
+.app {
+  font: var(--font-m);
+
+  background-color: var(--bg-color);
+  color: var(--text-primary-color);
+  height: 100vh;
+}
